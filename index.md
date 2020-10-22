@@ -822,7 +822,7 @@ firebase.database().ref("User").on("child_added", function(snapshot){
 
           
 
-              html += uu + ": " + cc + "  ";
+              html += "<b>" + uu + ": " +"</b>"+ cc + "  ";
 
               html += "<br>"
 
